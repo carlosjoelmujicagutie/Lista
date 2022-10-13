@@ -1,0 +1,43 @@
+div.Counter{
+    display:flex;
+    background-color: #e5f5f5;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+    width: 30%;
+    margin:auto;
+    margin-top: 40px;
+    border: 1px solid #53aadd;
+    border-radius: 6px;
+    box-shadow: 3px 3px #bedef0;
+}
+.Add{
+    border:1px solid #0ab421;
+    background-color:#89ee97;
+    height:25px;
+    text-align:center;
+    font-size:medium;
+    font-weight:bold;
+    border-radius: 4px;
+    margin: 1px 1px 6px 1px;
+}
+.Reset{
+    border:1px solid #e7d805;
+    background-color:#ebec94;
+    height:25px;
+    text-align:center;
+    font-size:medium;
+    font-weight:bold;
+    border-radius: 4px;
+    margin: 1px 1px 6px 1px;
+}
+.Dell{
+    border:1px solid #f10e06;
+    background-color:#fa818b;
+    height:25px;
+    text-align:center;
+    font-size:medium;
+    font-weight:bold;
+    border-radius: 4px;
+    margin: 1px 1px 6px 1px;
+}
