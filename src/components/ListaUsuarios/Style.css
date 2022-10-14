@@ -3,17 +3,41 @@ div.Container{
     justify-content: center;
     align-items:center;
     flex-direction:column;
+    border: 1px solid #0170c0;
+    width: 50%;
+    margin:auto;
+    border-radius:4px;
+    box-shadow: 2px 2px #79afd6;
+    margin-top: 50px;
 }
 .Title {
+    border:1px solid #0170c0;
+    background-color:#02b3ee;
     text-align:center;
+    align-items:center;
+    width: 50%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 25px;
+    font-weight: bold;
+    color:#ffffff;
+    border-radius:2px;
+    font-family: 'Times New Roman', Times, serif;
 }
-.LiatUl{
-    text-align:justify;
+div.Container ul{
+    display: inline-block;
+    margin: 10px;
+    padding: 0;
+    width: 50%;
 }
-.ListaUsuarios{
+div.Container ul li{
     list-style:none;
-    border: 1px solid #747171;
+    border: 1px solid #939c9a;
+    background-color:#f1f7f7;
     height:25px;
-    border-radius: 4px;
+    margin: 0px 0px 1px 0px;
+    border-radius: 2px;
     text-align:center;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
 }

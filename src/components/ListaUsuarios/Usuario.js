@@ -3,6 +3,6 @@ import './Style.css'
 
 export const Usuario = ({user}) => {
   return (
-    <li className="ListaUsuarios">{user.name}</li>
+    <li>{user.name}</li>
   )
 }
