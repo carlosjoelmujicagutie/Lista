@@ -1,0 +1,19 @@
+div.Container{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction:column;
+}
+.Title {
+    text-align:center;
+}
+.LiatUl{
+    text-align:justify;
+}
+.ListaUsuarios{
+    list-style:none;
+    border: 1px solid #747171;
+    height:25px;
+    border-radius: 4px;
+    text-align:center;
+}

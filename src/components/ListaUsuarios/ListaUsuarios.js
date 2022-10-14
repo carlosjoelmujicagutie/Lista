@@ -1,14 +1,16 @@
 import React from 'react'
 import {users} from './../db/users'
+import { Usuario } from './Usuario'
 
 export const ListaUsuarios = () => {
   return (
-    <div>
-        <ul>
+    <div className="Container">
+      <div className="Title">Lista de Usuarios</div>
+         <ul>
             {users.map((user) =>(
-                  <li key={user.id}>{user.name}</li>
+                <Usuario key={user.id} user={user}/>
             ))}
-        </ul>
+         </ul>
     </div>
   )
 }
